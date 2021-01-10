@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { FormValues, FormikStepProps } from "./types";
+import {FormValues} from "./types";
 import {
   validationSchema1,
   validationSchema2,
