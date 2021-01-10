@@ -1,0 +1,19 @@
+.animBar {
+    background: linear-gradient(241deg, #14d6a4, #d143e0, #3b8cdb);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+
